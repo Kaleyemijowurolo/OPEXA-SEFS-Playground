@@ -5,13 +5,16 @@ This repo is a playground.
   * git clone git@github.com:Kaleyemijowurolo/OPEXA-SEFS-Playground.git
   * git clone https://github.com/Kaleyemijowurolo/OPEXA-SEFS-Playground.git
 
-# Create a branch with your first&last name e.g
+# Create a branch with your first&last name 
+e.g
   * git checkout -b kayode-kolade
   
-# Push your work to your branch e.g 
+# Push your work to your branch 
+e.g 
   * git push origin kayode-kolade
 
-# You can create a branch for a specific project e.g 
+# You can create a branch for a specific project 
+e.g 
   * git checkout -b kayode-kolade-studentRecords 
   * git checkout -b kayode-kolade-react
   
