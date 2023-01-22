@@ -11,20 +11,15 @@
 }
 .select {
   /* color: ; */
-  font-style: italic;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 18px;
-  border: none;
-  font-family: "Work Sans";
-  padding: 5px;
-  /* identical to box height */
-
-  color: #878787;
-
-  /* Inside auto layout */
-
-  flex: none;
   order: 0;
+  flex: none;
+  border: none;
+  padding: 5px;
   flex-grow: 0;
+  font-size: 15px;
+  color: #878787;
+  font-weight: 400;
+  line-height: 18px;
+  font-style: italic;
+  font-family: "Work Sans";
 }
