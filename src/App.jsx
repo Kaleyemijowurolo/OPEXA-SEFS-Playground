@@ -42,8 +42,8 @@ const DimensionConverter = () => {
 
   return (
     <div className=" dark:bg-gray-800 w-[100vw] h-[100vh] flex justify-center items-center">
-      <div className="w-[50%] h-[60%] flex items-center justify-center bg-white border border-gray-200 rounded-lg shadow dark:bg-whitesmoke-800 dark:border-gray-700">
-        <div className="w-[70%] h-[70%]">
+      <div className="w-[50%] h-[70%] flex items-center justify-center bg-white border border-gray-200 rounded-lg shadow dark:bg-whitesmoke-800 dark:border-gray-700">
+        <div className="w-[60%] h-[80%]">
           <form>
             <div className="flex relative">
               <button
@@ -71,7 +71,7 @@ const DimensionConverter = () => {
               {toggle && (
                 <div
                   id="dropdown"
-                  className="-z-1 absolute top-7 pt-3 bg-white divide-y divide-gray-100 rounded-lg shadow w-[136px] dark:bg-gray-700"
+                  className="z-[1] absolute top-7 pt-3 bg-white divide-y divide-gray-100 rounded-lg shadow w-[136px] dark:bg-gray-700"
                 >
                   <ul
                     className="py-2 text-sm text-gray-700 dark:text-gray-200"
@@ -122,10 +122,10 @@ const DimensionConverter = () => {
 
           <br />
           <br />
-          <div className="h-[80%] w-full flex items-center justify-center border-[.5px] relative">
-            <div className="w-[60%] h-[90%]  text-center">
+          <div className="z-[-0.9] h-[80%] w-full flex flex-col items-center justify-center border-[.5px] relative">
+            <div className="w-max h-max p-4 absolute top-0 text-center">
               {outputValue && (
-                <span className="text-[80px] w-full border-[.7px] px-5 py-2 text-white  dark:bg-gray-800 rounded-lg">
+                <span className="block text-[70px] m-0 w-full border-[.7px] px-5 py-2 text-white  dark:bg-gray-800 rounded-lg">
                   {outputValue}
                 </span>
               )}
