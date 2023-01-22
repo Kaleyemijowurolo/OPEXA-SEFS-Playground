@@ -9,7 +9,7 @@ const DimensionConverter = () => {
   const [inputUnit, setInputUnit] = useState("Pixels");
   const [outputValue, setOutputValue] = useState("");
   const [toggle, setToggle] = useState(false);
-
+  console.log(deviceHeight, "Device Height");
   useEffect(() => {
     const handleResize = () => {
       setDeviceWidth(window.innerWidth);
