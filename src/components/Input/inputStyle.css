@@ -1,0 +1,20 @@
+.input {
+  order: 0;
+  flex: none;
+  flex-grow: 0;
+  height: 60px;
+  width: 1128px;
+  margin: 10px 0;
+  color: #878787;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-indent: 25px;
+  font-style: italic;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-family: "Work Sans";
+  border: 2px solid #8d8d8d;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 6px 12px 2px rgba(0, 0, 0, 0.05);
+}

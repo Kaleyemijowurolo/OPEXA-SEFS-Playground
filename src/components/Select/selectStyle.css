@@ -1,0 +1,30 @@
+.selectWrapper {
+  border: solid;
+  display: flex;
+  height: 50px;
+  padding: 0 15px;
+  width: max-content;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+  border: 2px solid #8d8d8d;
+}
+.select {
+  /* color: ; */
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  border: none;
+  font-family: "Work Sans";
+  padding: 5px;
+  /* identical to box height */
+
+  color: #878787;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
