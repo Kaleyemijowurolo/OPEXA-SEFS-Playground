@@ -2,9 +2,9 @@ import React from "react";
 import "./selectStyle.css";
 
 const Select = (props) => (
-  <div className="selectWrapper">
+  <div className={`selectWrapper ${props.style}`} style={props.styles}>
     <select className="select">
-      {props.options.map((item) => (
+      {props?.options?.map((item) => (
         <option value="">{item}</option>
       ))}
     </select>

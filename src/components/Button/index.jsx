@@ -5,7 +5,7 @@ const Button = (props) => {
   return (
     <button
       className={`${props.primary ? "pry" : null} ${
-        props.secondary ? "sec" : null
+        props.secondary ? "sec" : props?.full ? "full_width" : null
       }`}
     >
       {props.buttonName}

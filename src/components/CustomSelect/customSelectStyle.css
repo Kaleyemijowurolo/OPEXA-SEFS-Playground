@@ -1,0 +1,21 @@
+.custom_select {
+  height: 60px;
+  border: solid;
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
+  width: max-content;
+  border-radius: 10px;
+  border: 2px solid #8d8d8d;
+  box-sizing: border-box;
+}
+.custom_select input {
+  border: none;
+  height: 70%;
+  border-radius: 0;
+  box-shadow: none;
+  border-left: 3px solid #878787;
+}
+.custom_select .select {
+  border: none;
+}
